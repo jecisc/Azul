@@ -22,5 +22,5 @@ AZHelloWorldPage class >> priority [
 
 { #category : #rendering }
 AZHelloWorldPage >> renderContentOn: html [
-	html div style: 'min-height: 400px;'; with: 'Hello world'
+	html render: AZScoreTrackComponent new
 ]

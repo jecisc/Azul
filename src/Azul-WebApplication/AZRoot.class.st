@@ -168,7 +168,8 @@ AZRoot >> updateRoot: anHtmlRoot [
 	anHtmlRoot title: 'Azul'.
 	anHtmlRoot meta
 		attributeAt: 'name' put: 'viewport';
-		content: 'width=device-width, initial-scale=1'
+		content: 'width=device-width, initial-scale=1'.
+	anHtmlRoot link url: 'https://fonts.googleapis.com/css?family=Indie+Flower'
 ]
 
 { #category : #updating }
